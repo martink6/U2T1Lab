@@ -17,4 +17,12 @@ public class Student {
     public boolean isFailing() {
         return gpa < 1;
     }
+
+    public void setName(String n) {
+        name = n;
+    }
+
+    public void setGpa(double g) {
+        gpa = g;
+    }
 }
